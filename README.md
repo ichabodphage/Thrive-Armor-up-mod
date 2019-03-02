@@ -10,4 +10,4 @@ having steel protects you from oxytoxy particles.
 first, go to `Thrive\build\bin\Data` and replace the scripts file with this one
 
 
-finaly, go to Thrive\build\bin\Data\Textures\gui\ and replace the bevel file with the one from the mod
+finaly, go to `Thrive\build\bin\Data\Textures\gui\` and replace the bevel file with the one from the mod
