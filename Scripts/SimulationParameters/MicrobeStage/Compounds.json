@@ -1,0 +1,130 @@
+{
+    "atp": {
+        "name": "ATP",
+        "volume": 1,
+        "isCloud": false,
+        "isUseful": true,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 0.235,
+            "g": 0.627,
+            "b": 0.705
+        }
+    },
+
+    "ammonia": {
+        "name": "Ammonia",
+        "volume": 1,
+        "isCloud": true,
+        "isUseful": true,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 1.0,
+            "g": 0.4,
+            "b": 0.1
+        }
+    },
+
+    "phosphates": {
+        "name": "Phosphates",
+        "volume": 1,
+        "isCloud": true,
+        "isUseful": true,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 0.7,
+            "g": 0.0,
+            "b": 0.7
+        }
+    },
+
+    "hydrogensulfide": {
+        "name": "Hydrogen Sulfide",
+        "volume": 1,
+        "isCloud": true,
+        "isUseful": false,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 0.6,
+            "g": 0.7,
+            "b": 0.2
+        }
+    },
+
+    "glucose": {
+        "name": "Glucose",
+        "volume": 1,
+        "isCloud": true,
+        "isUseful": false,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+        }
+    },
+
+    "oxytoxy": {
+        "name": "Oxytoxy NT",
+        "volume": 1,
+        "isCloud": false,
+        "isUseful": true,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 0.078,
+            "g": 0.0,
+            "b": 0.078
+        }
+    },
+
+    "iron": {
+        "name": "Iron",
+        "volume": 1,
+        "isCloud": true,
+        "isUseful": false,
+        "isEnvironmental": false,
+        "colour": {
+            "r": 0.28,
+            "g": 0.098,
+            "b": 0.02
+        }
+    },
+
+    "oxygen": {
+        "name": "Oxygen",
+        "volume": 1,
+        "isCloud": false,
+        "isUseful": true,
+        "isEnvironmental": true,
+        "colour": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 1.0
+        }
+    },
+
+    "steel": {
+      "name": "Steel",
+      "volume": 1,
+      "isCloud": false,
+      "isUseful": false,
+      "isEnvironmental": false,
+      "colour": {
+          "r": 0.33,
+          "g": 0.33,
+          "b": 0.33
+      }
+  },
+    "carbondioxide": {
+        "name": "Carbon Dioxide",
+        "volume": 1,
+        "isCloud": false,
+        "isUseful": true,
+        "isEnvironmental": true,
+        "colour": {
+            "r": 1.0,
+            "g": 0.0,
+            "b": 0.0
+        }
+    }
+}

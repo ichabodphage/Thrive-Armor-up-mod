@@ -1,0 +1,140 @@
+{
+    "respiration": {
+        "name": "Respiration",
+
+        "inputs": {
+            "oxygen": 1.0,
+            "glucose": 0.2
+        },
+
+        "outputs": {
+           "atp": 38.0
+        }
+    },
+
+	"glycolosis": {
+        "name": "Glycolosis",
+
+        "inputs": {
+            "glucose": 0.125
+        },
+
+        "outputs": {
+            "atp": 5.0
+        }
+    },
+
+    "photosynthesis": {
+        "name": "Photosynthesis",
+
+        "inputs": {
+            "carbondioxide": 0.09
+        },
+
+        "outputs": {
+            "glucose": 1.0
+        }
+    },
+
+    "oxytoxySynthesis": {
+        "name": "Oxytoxy Synthesis",
+
+        "inputs": {
+            "oxygen": 1.0,
+            "atp": 5.0
+        },
+
+        "outputs": {
+            "oxytoxy": 5.0
+        }
+    },
+
+	"chemoSynthesis": {
+        "name": "Chemo Synthesis",
+
+        "inputs": {
+            "carbondioxide": 0.09,
+            "hydrogensulfide": 1.0
+        },
+
+        "outputs": {
+            "glucose": 2.0
+        }
+    },
+    "steel_Synthesis": {
+          "name": "Steel Synthesis",
+
+          "inputs": {
+              "carbondioxide": 0.09,
+              "iron": 1.0
+          },
+
+          "outputs": {
+              "steel": 2.0
+          }
+      },
+	"bacterial_ChemoSynthesis": {
+        "name": "Bacterial Chemosynthesis",
+
+        "inputs": {
+            "carbondioxide": 0.09,
+            "hydrogensulfide": 1.0
+        },
+
+        "outputs": {
+            "glucose": 1.0
+        }
+    },
+
+    "nitrogenFixing": {
+        "name": "Phosphate Fixing",
+
+        "inputs": {
+            "oxygen": 1.0,
+            "atp": 5
+        },
+
+        "outputs": {
+            "phosphates": 0.5
+
+        }
+    },
+
+    "protein_respiration": {
+        "name": "RespirationProtein",
+
+        "inputs": {
+            "oxygen": 1.0,
+            "glucose": 0.7
+        },
+
+        "outputs": {
+            "atp": 38.0
+        }
+    },
+
+    "chromatophore_photosynthesis": {
+        "name": "Bacterial Photosynthesis",
+
+        "inputs": {
+            "carbondioxide": 0.09
+        },
+
+        "outputs": {
+            "glucose": 0.33
+        }
+    },
+
+    "iron_chemolithoautotrophy": {
+        "name": "Iron Chemolithoautotrophy",
+
+        "inputs": {
+            "carbondioxide": 0.09,
+            "iron": 0.175
+        },
+
+        "outputs": {
+            "atp": 10.0
+        }
+    }
+}
