@@ -73,6 +73,18 @@
               "steel": 10.0
           }
       },
+      "steel_smelt": {
+            "name": "steel smelt",
+
+            "inputs": {
+                "carbondioxide": 0.09,
+                "iron": 1.0
+            },
+
+            "outputs": {
+                "steel": 100.0
+            }
+        },
 	"bacterial_ChemoSynthesis": {
         "name": "Bacterial Chemosynthesis",
 

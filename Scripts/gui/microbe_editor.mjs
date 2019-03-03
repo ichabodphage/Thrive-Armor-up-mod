@@ -61,6 +61,10 @@ const organelleSelectionElements = [
         organelle: "steelSynthisizingProteins"
     },
     {
+        element: document.getElementById("addipsoplast"),
+        organelle: "ipsoplast"
+    },
+    {
         element: document.getElementById("addFlagellum"),
         organelle: "flagellum"
     },
@@ -311,7 +315,6 @@ function updateGuiButtons(isNucleusPresent){
 
     if(!isNucleusPresent &&
         !document.getElementById("addMitochondrion").classList.contains("DisabledButton")) {
-
         document.getElementById("addNucleus").classList.remove("DisabledButton");
         document.getElementById("addMitochondrion").classList.add("DisabledButton");
         document.getElementById("addChloroplast").classList.add("DisabledButton");
@@ -319,6 +322,7 @@ function updateGuiButtons(isNucleusPresent){
         document.getElementById("addNitrogenFixingPlastid").classList.add("DisabledButton");
         document.getElementById("addVacuole").classList.add("DisabledButton");
         document.getElementById("addToxinVacuole").classList.add("DisabledButton");
+        document.getElementById("addipsoplast").classList.add("DisabledButton");
 
     } else if(isNucleusPresent &&
         document.getElementById("addMitochondrion").classList.contains("DisabledButton")) {
@@ -330,6 +334,7 @@ function updateGuiButtons(isNucleusPresent){
         document.getElementById("addNitrogenFixingPlastid").classList.remove("DisabledButton");
         document.getElementById("addVacuole").classList.remove("DisabledButton");
         document.getElementById("addToxinVacuole").classList.remove("DisabledButton");
+        document.getElementById("addipsoplast").classList.remove("DisabledButton");
     }
 }
 

@@ -34,7 +34,7 @@ o GameModule "microbe_stage"{
     t import{
         // microbe_common
     }
-    
+
     l properties{
 
         ExtraAccess = "FullFileSystem";

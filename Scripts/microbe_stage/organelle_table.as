@@ -348,7 +348,7 @@ void setupOrganelles(){
     oxytoxyParameters.mass = 0.3;
     oxytoxyParameters.gene = "T";
     oxytoxyParameters.mesh = "oxytoxy.mesh";
-    oxytoxyParameters.chanceToCreate = 1;
+    oxytoxyParameters.chanceToCreate = 3;
     oxytoxyParameters.prokaryoteChance = 0;
     oxytoxyParameters.mpCost = 70;
     oxytoxyParameters.initialComposition = {
@@ -511,6 +511,34 @@ void setupOrganelles(){
         Int2(0, -1)
     };
 
+	// ipsoplast
+    auto ipsoplast = OrganelleParameters("ipsoplast");
+
+    ipsoplast.mass = 0.1;
+    ipsoplast.gene = "y";
+    //TODO: They need their model
+    ipsoplast.mesh = "chemoplast.mesh";
+    ipsoplast.chanceToCreate = 1;
+    ipsoplast.prokaryoteChance = 0;
+    ipsoplast.mpCost = 45;
+    ipsoplast.initialComposition = {
+        {"phosphates", 5},
+        {"ammonia", 5}
+    };
+    ipsoplast.components = {
+        processorOrganelleFactory(1.0f),
+    // ipsoplast takes 2 hexes, so allowed storage of 2 cytooplasm
+    storageOrganelleFactory(10.0f)
+    };
+    ipsoplast.processes = {
+          TweakedProcess("steel_smelt", 1)
+    };
+    ipsoplast.hexes = {
+        Int2(0, 0),
+    Int2(0, -1)
+    };
+
+    _addOrganelleToTable(Organelle(ipsoplast));
     _addOrganelleToTable(Organelle(nitrogenPlastid));
     // Prokaryotic Organelles (all meshes are placeholders)//
 
@@ -575,7 +603,7 @@ void setupOrganelles(){
     oxytoxyProtein.gene = "t";
     oxytoxyProtein.mesh = "oxytoxy.mesh";
     oxytoxyProtein.chanceToCreate = 0;
-    oxytoxyProtein.prokaryoteChance = 1;
+    oxytoxyProtein.prokaryoteChance = 3;
     oxytoxyProtein.mpCost = 15;
     oxytoxyProtein.initialComposition = {
         {"phosphates", 1},
