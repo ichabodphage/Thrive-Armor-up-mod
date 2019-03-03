@@ -70,7 +70,7 @@
           },
 
           "outputs": {
-              "steel": 2.0
+              "steel": 10.0
           }
       },
 	"bacterial_ChemoSynthesis": {
