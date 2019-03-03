@@ -48,8 +48,8 @@ const auto MICROBE_SPAWN_RADIUS = 150;
 const auto BACTERIA_SPAWN_RADIUS = 150;
 
 // Max fear and agression and activity
-const auto MAX_SPECIES_AGRESSION = 400.0f;
-const auto MAX_SPECIES_FEAR = 400.0f;
+const auto MAX_SPECIES_AGRESSION = 1600.0f;
+const auto MAX_SPECIES_FEAR = 200.0f;
 const auto MAX_SPECIES_ACTIVITY = 400.0f;
 const auto MAX_SPECIES_FOCUS = 400.0f;
 
